@@ -1,0 +1,17 @@
+.{
+	.class = .wood,
+	.hardness = 0.3,
+	.drops = .{
+		.auto,
+	},
+	.solid = false,
+	.viewThrough = true,
+	.collide= false,
+	.rotation = .torch,
+	.model = "cubyz:torch",
+	.texture = "cubyz:torch",
+	.item= .{
+		.texture = "stick.png",
+	},
+	.lodReplacement = "cubyz:air",
+}
